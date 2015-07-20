@@ -225,7 +225,6 @@ public class SlidingTabLayout extends HorizontalScrollView {
 
                 @Override
                 public void onClick(View v) {
-                    // TODO Auto-generated method stub
                     mViewPager.setCurrentItem(index_i);
                 }
             });

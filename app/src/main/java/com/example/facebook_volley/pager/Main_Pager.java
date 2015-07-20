@@ -31,7 +31,7 @@ public class Main_Pager extends BaseActivity{
     SearchView searchView;
     ViewPager viewPager;
     SlidingTabLayout tabs;
-    private int a;
+    private int b;
     BadgeView badge1,badge2,badge3;
     ViewPagerAdapter pagerAdapter;
 

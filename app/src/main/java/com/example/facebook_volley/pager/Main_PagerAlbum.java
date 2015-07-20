@@ -21,6 +21,7 @@ import com.example.facebook_volley.friend_menu.SampleListFragment;
 public class Main_PagerAlbum extends FragmentActivity {
     SearchView searchView;
     ViewPager viewPager;
+    private int a;
     SlidingTabAlbum tabs;
     ViewPageAlbumAdapter pagerAdapter;
     CharSequence Titles[]={"PHOTOS OF YOU","UPLOAD","ALBUM","SYNCED"};
