@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="tv_color">#477ce6</color>
+    <color name="click">#00ffffff</color>
+    <color name="white">#a0a3a7</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="textColor">#fff</color>
+    <color name="textFieldColor">#000</color>
+    <color name="listViewBg">#DADFEE</color>
+    <color name="barDarkColor">#CECECE</color>
+    <color name="barMeduimColor">#DFDEE0</color>
+    <color name="barLightColor">#F2F2F2</color>
+
+    <color name="ColorPrimary">#26292e</color>
+    <color name="ColorPrimaryDark">#a0a3a7</color>
+    <color name="tabsScrollColor">#a0a3a7</color>
+</resources>

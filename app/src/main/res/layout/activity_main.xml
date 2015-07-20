@@ -1,0 +1,109 @@
+<!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="50dp"--><!--android:background="#4d69a3"--><!--android:gravity="center"--><!--android:orientation="horizontal">-->
+
+<!--<EditText--><!--android:layout_width="250dp"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="center"--><!--android:drawableLeft="@drawable/search"--><!--android:textStyle="italic"--><!--android:hint=" Tìm kiếm" />--><!--<ImageView--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:scaleType="centerInside"--><!--android:layout_gravity="center"--><!--android:layout_marginLeft="5dp"--><!--android:src="@drawable/ic_nav"/>--><!--</LinearLayout>-->
+
+<!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="47dp"--><!--android:background="#fff"--><!--android:weightSum="5"--><!--android:gravity="center">-->
+
+<!--<ImageView--><!--android:layout_width="0dp"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:scaleType="centerInside"--><!--android:src="@drawable/newfeed" />-->
+
+<!--<ImageView--><!--android:id="@+id/request"--><!--android:layout_width="0dp"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:scaleType="centerInside"--><!--android:src="@drawable/request" />-->
+
+<!--<ImageView--><!--android:layout_width="0dp"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:scaleType="centerInside"--><!--android:src="@drawable/messenger" />-->
+
+<!--<ImageView--><!--android:layout_width="0dp"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:scaleType="centerInside"--><!--android:src="@drawable/notifi" />-->
+
+<!--<ImageView--><!--android:layout_width="0dp"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:scaleType="centerInside"--><!--android:src="@drawable/more" />--><!--</LinearLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.facebook_volley.customer.QuickReturnListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#cc47639e"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/primary_text_dark"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/stt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/ic_status"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text=" Status"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:id="@+id/pt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_photo"
+                android:gravity="center_vertical"
+                android:text=" Photo"
+                android:layout_marginLeft="15dp"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:id="@+id/lc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableStart="@drawable/ic_location"
+                android:gravity="center_vertical"
+                android:text=" Location"
+                android:layout_marginLeft="5dp"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

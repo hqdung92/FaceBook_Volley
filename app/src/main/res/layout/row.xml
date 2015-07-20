@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/profilePic"
+        android:layout_width="@dimen/feed_item_profile_pic"
+        android:layout_height="@dimen/feed_item_profile_pic"
+        android:scaleType="fitCenter"></com.android.volley.toolbox.NetworkImageView>
+
+    <TextView
+        android:id="@+id/row_title"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/online"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text=""
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+</LinearLayout>
